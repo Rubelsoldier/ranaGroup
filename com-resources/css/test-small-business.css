@@ -1,0 +1,142 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  /*padding-top: 54px;*/
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+}
+
+/*@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}*/
+
+/*
+Menu styling
+*/
+
+.container-fluid{
+  padding-left: 0px; padding-right: 0px;
+}
+
+
+.menu-nav-wrapper{ background:url(../../mainpage/images/menu.gif) repeat-x top; }
+.menu-nav {  margin:0 auto; width:565px; }
+.menu-nav ul { list-style:none; background:url(../../mainpage/images/menu.gif) repeat-x top;}
+.menu-nav ul li { margin:0 2px; float:left;}
+.menu-nav ul li a { display:block; margin:0; padding:35px 24px; color:#3e3e3e !important; text-decoration:none; font:bold 14px/1.5em Arial, Helvetica, sans-serif; text-transform:uppercase;}
+.menu-nav ul li a:hover, .menu-nav ul li.active a { color:#fff !important; background:url(../../mainpage/images/menu_a.gif) repeat-x top;}  
+.navbar-expand-lg .menu-nav-wrapper {
+	height:91px; background:url(../../mainpage/images/menu.gif) repeat-x top;
+}
+
+.nav-link { padding: 2.5rem !important; }
+
+
+
+    
+/* header */
+.header { height:237px; background:url(../../mainpage/images/test-header_bg.jpg) repeat-x center top;  }
+.header_resize { margin:0 auto; padding:0; width:970px;}
+
+
+/*H1*/
+.logo h1{ margin:0; padding:80px 0; color:#fff; font:normal 48px/1.2em Arial, Helvetica, sans-serif; text-align:center; }
+
+.logo h1 a, .logo h1 a:hover { color:#fff;text-decoration:none;} 
+
+.my-4 { margin-top: 5.7rem!important; }
+
+.navbar-dark .navbar-toggler-icon { background-color: #2894A1!important; }
+
+/*Media query*/
+@media only screen and (max-width: 575px) {
+  .font-color: white;
+  .navbar-dark.container-fluid { width: 35% }
+  .menu-nav-wrapper { background-color: black;margin-left: 0px; }
+  .menu-nav ul li { margin: 0px;float: left; }
+}
+
+/*Styling for the inner container*/
+.container.cards-id { margin-top: -25px;background-color: white; }
+
+
+/*CARD*/
+
+.card{box-shadow:2px 2px 20px rgba(0,0,0,0.3); border:none; margin-bottom:30px;}
+.card-01 .card-body{position:relative; padding-top:40px;}
+.card-01 .badge-box{position:absolute; top:-20px; left:50%; width:100px; height:100px;margin-left:-50px; text-align:center;}
+.card-01 .badge-box i{background:#DFC717; color:#fff; border-radius:50%;  width:50px; height:50px; line-height:50px; text-align:center; font-size:20px;}
+.card-01.height-fix{height:455px; overflow:hidden;}
+.card-01.height-fix .card-img-top{width:auto!imporat;}
+
+
+
+.card-01.height-fix .card-img-overlay{top:unset; color:#fff;
+    background: -moz-linear-gradient(top, rgba(26,96,111,0) 0%, rgba(26,96,111,0) 1%, rgba(24,87,104,0.91) 31%, rgba(21,65,89,0.91) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(26,96,111,0) 0%,rgba(26,96,111,0) 1%,rgba(24,87,104,0.91) 31%,rgba(21,65,89,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(26,96,111,0) 0%,rgba(26,96,111,0) 1%,rgba(24,87,104,0.91) 31%,rgba(21,65,89,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001a606f', endColorstr='#e8154159',GradientType=0 );
+}
+.card-01.height-fix .fa{color: #fff;font-size: 22px;margin-right: 18px;};
+
+
+
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__back .card{
+    width:100%;
+    height:65vh;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  background-color: #ff5078;
+}
+
+.card__back {
+  background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+
+#second-section{
+  /*background-color: #29658A;*/
+  margin-top: -24px;
+}
+
+.card-title{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.card-01 img{
+  border-bottom: 1px solid black;
+}
+
+.btn-default{background:#2d8b97; color:snow; font-weight:700; text-shadow:1px 1px 0 rgba(0,0,0,0.2); font-size:14px;}
+
+#second-section h4 { color: black; }

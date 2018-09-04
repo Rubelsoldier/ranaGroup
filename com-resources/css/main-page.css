@@ -10,8 +10,8 @@
 
 
 body{
-  background: url(../../ranagroup-mainpage/images/bg.jpg) no-repeat center fixed;
-  background-size: cover;
+  /*background: url(../../ranagroup-mainpage/images/bg.jpg) no-repeat center fixed;*/
+  /*background-size: cover;*/
 } 
 
 @media (min-width: 992px) {
@@ -149,9 +149,12 @@ background-color: #89BDBB;
 }
 
 
-/**
+/*
+=======================
 social icons css
+=======================
 */
+
 
 .header-top-social ul {
     text-align: right; 
@@ -179,10 +182,14 @@ social icons css
         }
 
 /*
-Stylesheet from bagan theme  
+==================================
+    Stylesheet from bagan theme
+==================================  
 */
 
-/*Top bar*/
+/*
+=====Top bar====
+*/
 
 .xs-header-top{
     position: relative;
