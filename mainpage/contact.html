@@ -15,6 +15,15 @@
     <!-- Custom styles for this template -->
     <link href="../com-resources/css/test-small-business.css" rel="stylesheet">
 
+    <!-- CONTACT FORM CSS -->
+    <link rel="stylesheet" href="../com-resources/css/mainpage_contact_form.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" type="text/css" href="../com-resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    
+
 </head>
 <body>
   
@@ -47,25 +56,127 @@
         </div><!-- .menu-nav-wrapper -->
       </div><!-- .container-fluid -->
     </nav>
+    
+    
+    <!-- Page Content -->
+    <div class="container-fluid">
+      <!-- Heading Row -->
+      <div class="row my-4">
+        <div class="col-lg-12">
+        <div class="header_small">
+          <div class="header_resize">
+            <div class="logo"><!-- <h1><a href="index.html">Welcome | CyanSpark</a></h1> --></div>
+          </div>
+        </div>
+        <!-- .header         -->
+        </div>
+        <!-- .col-lg-12 -->       
+      </div>
+      <!-- /.row -->
+  </div>
+    <!-- .container-fluid -->  
+
+
+    <!-- CONTACT FORM AND MAP -->
+    <div class="container">
+      <div class="row contactForm">
+        <!-- <div id="contactForm"> -->
+          <div class="col-sm-12 col-lg-6">
+            <form class="contact1-form validate-form " method="post" action="contact_form.php" >
+              <span class="contact1-form-title">
+                Get in touch
+              </span>
+
+              <div class="wrap-input1 validate-input" data-validate = "Name is required">
+                <input class="input1" type="text" name="name" placeholder="Name">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Email">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                <input class="input1" type="text" name="subject" placeholder="Subject">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate = "Message is required">
+                <textarea class="input1" name="message" placeholder="Message"></textarea>
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="container-contact1-form-btn">
+                <button class="contact1-form-btn">
+                  <span>
+                    Send Email
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+
+          <div class="col-sm-12 col-lg-6 contact_details">
+            <p><span class="contact1-form-title">
+              CONTACT DETAILS
+            </span></p>
+            <p><span style="font-weight:  bold; padding-right: 15px;">STREE:     </span>24-25, Dilkusha C/A Suite # 802, 8th Floor 
+            Dhaka-1000, Bangladesh </p><br>
+
+            <p><span style="font-weight:  bold; padding-right: 15px;">PHONE:</span>(+8802) 9575340</p><br>
+
+            <p><span style="font-weight:  bold;padding-right: 15px;">EMAIL:</span>toart3@yahoo.com</p><br>
+
+          </div>
+
+
+        <!-- </div> -->
+        <!-- #contactForm -->
+      </div>
+      <!-- .row -->
+  
+
+      <!-- GOOGLE MAP -->
+      <div class="row ggle_map_row">
+
+        <div class="col-lg-12 ggle_map">
+          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.2857253231814!2d90.41880871220945!3d23.726987659237086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa262ad6f1e9484c!2sState+Bank+of+India%2C+Dhaka.!5e0!3m2!1sen!2sbd!4v1519714468695"></iframe>
+        </div>
+      </div>
+
+      </div>
+      <!-- .container -->  
+      
+
+      
+
+    <!-- Footer -->
+    <div class="container">
+    <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">© Copyright MyWebSite. Designed by Blue <a href="http://www.bluewebtemplates.com">Website Templates</a></p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li  class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<!-- .container -->
+
 
     <!-- Bootstrap core JavaScript -->    
     <script src="../com-resources/vendor/jquery/jquery.min.js"></script>
     <script src="../com-resources/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/arial.js"></script>
-<script type="text/javascript" src="js/cuf_run.js"></script>
-     
-    <script>
-      
-      // $(document).ready(function (){
-      //     $(".navbar-nav li").click(function(e){
-      //       // e.preventDefault();            
-      //       $(".navbar-nav li").removeClass("active");            
-      //       $(this).addClass("active");
-      //     });
-      // });
+    
 
-    </script>  
+
 
 </body>
 </html>
